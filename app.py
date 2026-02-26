@@ -4,6 +4,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return {"message": "My First python DevOps Project & this is the edited versiono of file"}
+    return {"message": "My First python DevOps Project &"}
 if __name__ == "__main__":
     app.run(host="0.0.0.0" , port=5000)
